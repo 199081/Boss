@@ -18,7 +18,7 @@ public interface DecidedZoneService {
 	 * //思考：操作两张表：一张定区+更新分区的定区外键字段
 	 * @param decidedZone
 	 * @param subareaId
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午11:24:55
 	 */
 	public void saveDecidedZone(DecidedZone decidedZone, String[] subareaId);
@@ -29,7 +29,7 @@ public interface DecidedZoneService {
 	 * @param specification
 	 * @param pageable
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 下午3:14:53
 	 */
 	public Page<DecidedZone> findDecidedZoneListPage(Specification<DecidedZone> specification, Pageable pageable);

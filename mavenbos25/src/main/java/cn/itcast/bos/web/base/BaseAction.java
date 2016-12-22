@@ -52,7 +52,7 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
 	 * 说明：将对象放入session
 	 * @param key
 	 * @param value
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午4:14:44
 	 */
 	public void setObjectToSession(String key, Object value){
@@ -64,7 +64,7 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
 	 * 说明：从参数中获取值
 	 * @param key
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午4:46:06
 	 */
 	public String getValueFromParameter(String key){
@@ -76,7 +76,7 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
 	 * 说明：从session中获取值
 	 * @param key
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午4:48:40
 	 */
 	public Object getValueFromSession(String key){

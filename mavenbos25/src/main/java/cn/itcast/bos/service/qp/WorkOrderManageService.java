@@ -12,7 +12,7 @@ public interface WorkOrderManageService {
 	 * 
 	 * 说明：保存工作单（快速录入）
 	 * @param workOrderManage
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月24日 下午2:56:31
 	 */
 	
@@ -23,7 +23,7 @@ public interface WorkOrderManageService {
 	 * 说明：没有业务条件的分页查询
 	 * @param pageable
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月24日 下午5:05:45
 	 */
 	
@@ -36,7 +36,7 @@ public interface WorkOrderManageService {
 	 * @param conditionName
 	 * @param conditionValue
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月24日 下午5:12:31
 	 */
 	public Page<WorkOrderManage> findWorkOrderManageList(Pageable pageable, String conditionName,

@@ -13,7 +13,7 @@ public interface RoleService {
 	 * 说明：
 	 * @param user
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月25日 下午5:16:29
 	 */
 	public List<Role> findRoleListByUser(User user);
@@ -22,7 +22,7 @@ public interface RoleService {
 	 * 
 	 * 说明：查询所有角色列表
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 上午11:31:33
 	 */
 	public List<Role> findRoleList();
@@ -32,7 +32,7 @@ public interface RoleService {
 	 * 说明：保存角色并关联权限（赋权）
 	 * @param role
 	 * @param functionIds
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 下午2:39:04
 	 */
 	public void saveRole(Role role,String functionIds);

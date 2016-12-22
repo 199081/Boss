@@ -37,7 +37,7 @@ public class WorkOrderManageDAOImpl{
 	 * 通过luncence查询数据
 	 * 说明：
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月24日 下午5:27:17
 	 */
 	public Page<WorkOrderManage> searchByLucence(Pageable pageable, String conditionName,

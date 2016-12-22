@@ -19,7 +19,7 @@ public interface UserDAO extends JpaRepository<User, String>{
 	 * 说明：where username =?
 	 * @param username
 	 * @return   会根据类型自动封装，如果是User单对象，会自动封装为user对象，如果是List<User>，会自动封装为user list
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午2:56:54
 	 */
 	public User findByUsername(String username);
@@ -29,7 +29,7 @@ public interface UserDAO extends JpaRepository<User, String>{
 	 * @param username
 	 * @param password
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午2:58:53
 	 */
 //	public List<User> findByUsernameAndPassword(String username,String password);
@@ -40,7 +40,7 @@ public interface UserDAO extends JpaRepository<User, String>{
 	 * @param username
 	 * @param password
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午3:07:03
 	 */
 	public User findByUsernameAndPassword(String username,String password);
@@ -54,7 +54,7 @@ public interface UserDAO extends JpaRepository<User, String>{
 	 * 说明：
 	 * @param username
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年1月30日 下午3:23:25
 	 */
 	//@Query("select u.password from User u where u.username =?")//hql
@@ -70,7 +70,7 @@ public interface UserDAO extends JpaRepository<User, String>{
 	 * 说明：修改个人密码
 	 * @param id
 	 * @param password
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月16日 下午3:12:33
 	 */
 	@Modifying//告诉Query接口可以执行增删改

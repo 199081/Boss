@@ -12,7 +12,7 @@ public interface FunctionService {
 	 * 
 	 * 说明：查询功能列表（“所有”）
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 上午9:48:32
 	 */
 	public List<Function> findFunctionList();
@@ -21,7 +21,7 @@ public interface FunctionService {
 	 * 
 	 * 说明：保存功能（包含菜单）
 	 * @param function
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 上午10:41:02
 	 */
 	public void saveFunction(Function function);
@@ -31,7 +31,7 @@ public interface FunctionService {
 	 * 说明：根据用户查询功能菜单列表
 	 * @param user
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 下午4:23:24
 	 */
 	public List<Function> findFunctionByUser(User user);

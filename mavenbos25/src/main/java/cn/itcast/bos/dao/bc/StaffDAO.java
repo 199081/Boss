@@ -20,7 +20,7 @@ public interface StaffDAO extends JpaRepository<Staff, String> {
 	 * 说明：根据删除标记查询派送员
 	 * @param c
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午10:25:45
 	 */
 	public List<Staff> findByDeltag(Character deltag);

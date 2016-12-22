@@ -14,7 +14,7 @@ public interface RoleDAO extends JpaRepository<Role, String> {
 	 * 说明：根据用户查询权限列表
 	 * @param user
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月25日 下午5:21:32
 	 */
 	public List<Role> findByUsers(User user);

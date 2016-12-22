@@ -14,7 +14,7 @@ public interface RegionService {
 	 * 
 	 * 说明：批量保存
 	 * @param regionList
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 上午10:58:17
 	 */
 	public void saveRegionList(List<Region> regionList);
@@ -24,7 +24,7 @@ public interface RegionService {
 	 * 说明：分页查询区域
 	 * @param pageable
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 下午2:44:03
 	 */
 	public Page<Region> findRegionListPage(Pageable pageable);
@@ -33,7 +33,7 @@ public interface RegionService {
 	 * 
 	 * 说明：查询所有区域列表
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 下午3:00:42
 	 */
 	public List<Region> findAllRegionList();
@@ -43,7 +43,7 @@ public interface RegionService {
 	 * 说明：根据省市区查询区域
 	 * @param param
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 下午3:17:36
 	 */
 	public List<Region> findRegionListByProvinceOrCityOrDistrict(String param);

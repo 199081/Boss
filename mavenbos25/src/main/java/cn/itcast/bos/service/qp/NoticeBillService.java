@@ -9,7 +9,7 @@ public interface NoticeBillService {
 	 * 
 	 * 说明：保存通知单
 	 * @param noticeBill
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月22日 下午5:07:37
 	 */
 	public void saveNoticeBill(NoticeBill noticeBill);

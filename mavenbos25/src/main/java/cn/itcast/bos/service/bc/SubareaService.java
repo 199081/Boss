@@ -15,7 +15,7 @@ public interface SubareaService {
 	 * 保存分区
 	 * 说明：
 	 * @param subarea
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 下午3:50:00
 	 */
 	public void saveSubarea(Subarea subarea);
@@ -26,7 +26,7 @@ public interface SubareaService {
 	 * @param specification
 	 * @param pageable
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月19日 下午5:31:20
 	 */
 	public Page<Subarea> findSubareaListPage(Specification<Subarea> specification, Pageable pageable);
@@ -36,7 +36,7 @@ public interface SubareaService {
 	 * 说明：根据条件查询分区列表
 	 * @param specification
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午9:38:25
 	 */
 	public List<Subarea> findSubareaList(Specification<Subarea> specification);
@@ -45,7 +45,7 @@ public interface SubareaService {
 	 * 
 	 * 说明：查询没有定区的分区（没有定区外键的id）
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午10:33:36
 	 */
 	public List<Subarea> findSubareaListNoDecideZone();

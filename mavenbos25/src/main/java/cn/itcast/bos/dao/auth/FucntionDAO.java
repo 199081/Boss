@@ -18,7 +18,7 @@ public interface FucntionDAO extends JpaRepository<Function, String>{
 	 * 说明：
 	 * @param parentFunction
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 上午10:53:21
 	 */
 	@Query("select max(f.id) from Function f where f.function= ?")//hql
@@ -28,7 +28,7 @@ public interface FucntionDAO extends JpaRepository<Function, String>{
 	 * 
 	 * 说明：查询所有的菜单-给超管用
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月27日 下午4:27:29
 	 */
 	@Query("from Function where generatemenu='1' order by zindex")

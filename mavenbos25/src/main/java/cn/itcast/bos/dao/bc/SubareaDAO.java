@@ -18,7 +18,7 @@ public interface SubareaDAO extends JpaRepository<Subarea, String>,JpaSpecificat
 	 * 
 	 * 说明：查询没有定区的分区
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午10:37:34
 	 */
 	public List<Subarea> findByDecidedZoneIsNull();
@@ -27,7 +27,7 @@ public interface SubareaDAO extends JpaRepository<Subarea, String>,JpaSpecificat
 	 * 
 	 * 说明：查询没有定区的分区
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午10:37:34
 	 */
 	@Query("from Subarea where decidedZone is null")//hql,面向对象
@@ -38,7 +38,7 @@ public interface SubareaDAO extends JpaRepository<Subarea, String>,JpaSpecificat
 	 * 说明：更新分区的定区字段
 	 * @param decidedZone
 	 * @param id
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月21日 上午11:37:04
 	 */
 	@Modifying
@@ -50,7 +50,7 @@ public interface SubareaDAO extends JpaRepository<Subarea, String>,JpaSpecificat
 	 * 说明：根据区域查询下属的分区
 	 * @param region
 	 * @return
-	 * @author 传智.BoBo老师
+	 * @author Jack
 	 * @time：2016年2月24日 上午10:26:39
 	 */
 	public List<Subarea> findByRegion(Region region);
